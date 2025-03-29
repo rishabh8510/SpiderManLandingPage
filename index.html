@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Code Dairies | Spider</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <ul class="nav__links nav__left">
+        <li><a href="#" class="logo">Code Dairies</a></li>
+        <li><a href="#">WebVerse</a></li>
+        <li><a href="#">SpideyVerse</a></li>
+        <li><a href="#">Spidey</a></li>
+      </ul>
+      <ul class="nav__links nav__right">
+        <li><a href="#">Wall-Crawler HQ</a></li>
+        <li><a href="#">Login/Register</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+    <span class="letter-s">S</span>
+    <img src="assets/cover.png" alt="header" />
+    <h4 class="text__left">SPI</h4>
+    <h4 class="text__right">DER</h4>
+    <button class="btn explore" onclick="openInfo()">READ MORE</button>
+    <h5 class="feature-1">SpideySense</h5>
+    <h5 class="feature-2">SpiderSpot</h5>
+    <h5 class="feature-3">WebSlinger</h5>
+    <h5 class="feature-4">WallCrawler</h5>
+
+    <!-- Sliding Info Panel (Left Side) -->
+    <div id="">
+      <div id="infoPanel" class="info-panel">
+        <button class="close-btn" onclick="closeInfo()">✖</button>
+        <div class="spider">
+          <p>Spider-Man is a Marvel superhero created by Stan Lee and Steve Ditko in 1962. The story follows Peter Parker, a teenager who gains spider-like abilities after being bitten by a radioactive spider. </p>
+          <h2>SPIDER MAN</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Player (Right Side) -->
+    <div id="videoPanel" class="video-panel">
+      <video id="videoPlayer" controls>
+        <source src="assets/spider.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+      <p>Copyright © 2025 Code Dairies. All rights reserved.</p>
+      <div class="footer__links">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+      </div>
+    </footer>
+  </div>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
